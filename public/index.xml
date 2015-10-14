@@ -6,7 +6,35 @@
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
-    <updated>Tue, 13 Oct 2015 23:12:18 ADT</updated>
+    <updated>Wed, 14 Oct 2015 00:23:27 ADT</updated>
+    
+    <item>
+      <title>haunted house</title>
+      <link>http://localhost:1313/event/haunted-house/</link>
+      <pubDate>Wed, 14 Oct 2015 00:23:27 ADT</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>http://localhost:1313/event/haunted-house/</guid>
+      <description>&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
+&lt;p&gt;The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.&lt;/p&gt;
+&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
+&lt;p&gt;Dinosaurs are extinct today because they lacked opposable thumbs and the brainpower to build a space program.&lt;/p&gt;
+&lt;p&gt;The regret on our side is, they used to say years ago, we are reading about you in science class. Now they say, we are reading about you in history class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Across the sea of space, the stars are other suns.&lt;/p&gt;
+
+&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+
+&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>welcome</title>
@@ -17,6 +45,18 @@
       <description>&lt;p&gt;Across the sea of space, the stars are other suns.&lt;/p&gt;
 
 &lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+
+&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
 
 &lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
 </description>
