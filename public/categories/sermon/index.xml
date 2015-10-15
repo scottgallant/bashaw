@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Sermon on My New Hugo Site </title>
+    <link>http://localhost:1313/categories/sermon/</link>
+    <language>en-US</language>
+    <author>Enthusiastic Hugo User</author>
+    <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
+    <updated>Wed, 14 Oct 2015 15:15:20 ADT</updated>
+    
+    <item>
+      <title>oct 1</title>
+      <link>http://localhost:1313/blog/oct-1/</link>
+      <pubDate>Wed, 14 Oct 2015 15:15:20 ADT</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>http://localhost:1313/blog/oct-1/</guid>
+      <description>asdf</description>
+    </item>
+    
+  </channel>
+</rss>

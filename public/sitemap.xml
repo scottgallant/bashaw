@@ -3,8 +3,23 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2015-10-14T00:23:27-03:00</lastmod>
+    <lastmod>2015-10-14T16:38:46-03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/oct-15/</loc>
+    <lastmod>2015-10-14T16:38:46-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/oct-8/</loc>
+    <lastmod>2015-10-14T16:21:23-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/oct-1/</loc>
+    <lastmod>2015-10-14T15:15:20-03:00</lastmod>
   </url>
   
   <url>
@@ -13,7 +28,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/angels-among-us/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
@@ -24,6 +39,11 @@
   
   <url>
     <loc>http://localhost:1313/contact/</loc>
+    <lastmod>2015-10-13T23:12:18-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
