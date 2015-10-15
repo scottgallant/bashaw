@@ -2,3 +2,11 @@ baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Bashaw United Church"
 contact = "/:filename/"
+[[menu.main]]
+	name = "Events"
+	url = "/event"
+	weight = 1
+[[menu.main]]
+	name = "Blog"
+	url = "/blog"
+	weight = 1
