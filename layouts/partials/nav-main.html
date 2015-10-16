@@ -2,8 +2,7 @@
     <ul>
       <li><a href="{{ .Site.BaseUrl }}/">Home</a></li>
       {{ range .Site.Menus.main }}
-      <li><a href="{{ .Url }}">{{ .Name }}</a></li>
+				<li><a href="{{ .Url }}">{{ .Name }}</a></li>
       {{end}}
-      <li style="white-space: nowrap;"><a href="#" class="button">Donate</a></li>
     </ul>
   </nav>
