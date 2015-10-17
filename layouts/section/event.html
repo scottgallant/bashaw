@@ -10,43 +10,21 @@
 
     <!-- Content -->
       <div class="content">
-        <ul>
         {{ range .Data.Pages }}
-          <li><h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          <article>
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
           <a href="#" class="image fit"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></a>
           {{ if isset .Params "tags" }}
           &middot;
           {{ $baseUrl := .Site.BaseUrl }}
           {{ range .Params.tags }}<a class="label" href="{{ $baseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
           {{ end }}</span>
-          &middot; <time>{{ .Date.Format "Jan 2, 2006" }}</time></li>
+          &middot; <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          </article>
         {{ end }}
-        </ul>
       </div>
 
-    <!-- Sidebar -->
-      <div class="sidebar">
-        <section>
-          <h3>Magna Feugiat</h3>
-          <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-          <footer>
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-          </footer>
-        </section>
-        <hr />
-        <section>
-          <a href="#" class="image fit"><img src="{{ .Site.BaseUrl }}images/pic01.jpg" alt="" /></a>
-          <h3>Amet Lorem Tempus</h3>
-          <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-          <footer>
-            <ul class="actions">
-              <li><a href="#" class="button">Learn More</a></li>
-            </ul>
-          </footer>
-        </section>
-      </div><!-- .sidebar -->
+      {{ partial "sidebar.html" . }}
     </div><!-- .inner -->
   </section><!-- .wrapper -->
 

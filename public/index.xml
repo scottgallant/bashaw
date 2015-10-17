@@ -10,19 +10,19 @@
     
     <item>
       <title>nov 1</title>
-      <link>http://localhost:1313/blog/nov-1/</link>
+      <link>http://localhost:1313/blog/nov-8/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/nov-1/</guid>
+      <guid>http://localhost:1313/blog/nov-8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nov 1</title>
-      <link>http://localhost:1313/blog/nov-8/</link>
+      <link>http://localhost:1313/blog/nov-1/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/nov-8/</guid>
+      <guid>http://localhost:1313/blog/nov-1/</guid>
       <description></description>
     </item>
     
@@ -81,18 +81,6 @@
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
-      <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>welcome</title>
       <link>http://localhost:1313/blog/welcome/</link>
       <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
@@ -107,13 +95,12 @@
     </item>
     
     <item>
-      <title>Donate</title>
-      <link>http://localhost:1313/donate/</link>
+      <title>Contact</title>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/donate/</guid>
-      <description>&lt;h1&gt;Donate Now!&lt;/h1&gt;
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+      <guid>http://localhost:1313/gallery/</guid>
+      <description>&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
 
 &lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
 </description>
@@ -121,11 +108,24 @@
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/gallery/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/gallery/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+
+&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Donate</title>
+      <link>http://localhost:1313/donate/</link>
+      <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
+      <author>Enthusiastic Hugo User</author>
+      <guid>http://localhost:1313/donate/</guid>
+      <description>&lt;h1&gt;Donate Now!&lt;/h1&gt;
+&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
 
 &lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
 </description>
