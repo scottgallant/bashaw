@@ -3,8 +3,18 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2015-10-14T16:38:46-03:00</lastmod>
+    <lastmod>2015-10-17T17:32:41-03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/nov-1/</loc>
+    <lastmod>2015-10-17T17:32:41-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/nov-8/</loc>
+    <lastmod>2015-10-17T17:32:41-03:00</lastmod>
   </url>
   
   <url>
@@ -33,12 +43,12 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/welcome/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/blog/welcome/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   

@@ -29,13 +29,43 @@
       </section>
 
 
-      <!-- Three -->
+      <!-- Sermons -->
       <section id="three" class="wrapper style2">
         <div class="inner">
           <h2>Sermons</h2>
           <div class="posts">
-            {{ range .Data.Pages }}
-              {{ if .Params.tags }}
+
+            {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+              {{ if eq $taxonomyname "tags" }}
+                {{ range $key, $value := $taxonomy }}
+                  {{ if eq "sermon" $key }}
+                    {{ range first 3 $value.Pages }}
+                      <section class="post">
+                        <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                        <div class="content">
+                          <h3>{{ .Title }}</h3>
+                          <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
+                          <ul class="actions">
+                            <li><a href="{{ .Permalink }}" class="button">More</a></li>
+                          </ul>
+                        </div>
+                      </section>
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Events -->
+      <section id="three" class="wrapper style2">
+        <div class="inner">
+          <h2>Events</h2>
+          <div class="posts">
+
+            {{ range first 3 (where .Site.Pages "Section" "event") }}
                 <section class="post">
                   <span class="image"><img src="images/pic01.jpg" alt="" /></span>
                   <div class="content">
@@ -46,7 +76,6 @@
                     </ul>
                   </div>
                 </section>
-              {{ end }}
             {{ end }}
           </div>
         </div>
