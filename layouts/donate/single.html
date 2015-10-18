@@ -1,28 +1,59 @@
 {{ partial "head.html" . }}
 {{ partial "top-subpage.html" . }}
-<!-- One -->
-<section id="one" class="wrapper major-pad">
+
+<span class="image fit" style="margin-bottom: 0;">
+  <img src="/images/pic07.jpg" alt="">
+</span>
+<section id="one" class="wrapper split">
   <div class="inner">
-    <section class="spotlight">
+    <section class="">
       <div class="content">
         <h2>{{ .Title }}</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id interdum magna, ultricies aliquet curabitur sed metus pellentesque, ornare sapien quis.</p>
-
-        <form action="" method="POST">
-          <script
-            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-            data-amount="2000"
-            data-name="Bashaw United Church"
-            data-description="Donation"
-            data-image="{{ .Site.BaseUrl }}images/stripe-128x128.png"
-            data-locale="auto"
-            currency="CAD">
-          </script>
-        </form>
-
+        {{ .Content }}
       </div>
-      <span class="image"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></span>
+      <!-- <span class="image"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></span> -->
+    </section>
+    <section>
+      <script src="https://checkout.stripe.com/checkout.js"></script>
+
+        <label for="amount">Amount</label>
+        <input type="text" class="amount" value="" placeholder="$0.00" name="amount">
+        <button id="donateButton" class="donate-button">Donate</button>
+
+        <script>
+          var handler = StripeCheckout.configure({
+            key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+            image: '',
+            locale: 'auto',
+            token: function(token) {
+              // Use the token to create the charge with a server-side script.
+              // You can access the token ID with `token.id`
+            }
+          });
+
+          $('#donateButton').on('click', function(e) {
+            var regex  = /^\$?(([1-9][0-9]{0,2}(,[0-9]{3})*)|[0-9]+)?(\.[0-9]{1,2})?$/;
+            var donationAmount = $('input.amount').val();
+            donationAmount = parseInt(donationAmount.replace(/,/g, ''), 10)
+
+            if (regex.test(donationAmount)) {
+                // Open Checkout with further options
+                handler.open({
+                  name: 'Bashaw United Church',
+                  description: 'Donation',
+                  amount: donationAmount * 100
+                });
+            } else {
+                alert("Please put in a donation amount in dollars");
+            }
+            e.preventDefault();
+          });
+
+          // Close Checkout on page navigation
+          $(window).on('popstate', function() {
+            handler.close();
+          });
+        </script>
     </section>
   </div>
 </section>

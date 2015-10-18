@@ -7,8 +7,9 @@
       <div class="content">
         <h1>{{ .Title }}</h1>
         {{ if isset .Params "eventdate" }}
-          <p><strong>Event Date</strong> {{ .Params.eventdate }}
+          <p><strong>Date</strong> {{ .Params.eventdate }}
         {{ end }}
+        <br>
         {{ .Content }}
       </div>
 

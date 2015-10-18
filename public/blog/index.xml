@@ -9,7 +9,7 @@
     <updated>Sat, 17 Oct 2015 17:32:41 ADT</updated>
     
     <item>
-      <title>nov 1</title>
+      <title>Some Inspirational Title</title>
       <link>http://localhost:1313/blog/nov-1/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
@@ -19,12 +19,18 @@
     </item>
     
     <item>
-      <title>nov 1</title>
+      <title>nov 8 - Some title</title>
       <link>http://localhost:1313/blog/nov-8/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
       <guid>http://localhost:1313/blog/nov-8/</guid>
-      <description></description>
+      <description>&lt;span class=&#34;image fit&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/pic07.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/span&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/p&gt;
+&lt;p&gt;&lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/blockquote&gt;&lt;/p&gt;
+&lt;h2&gt;Lorem ipsum dolor&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/p&gt;</description>
     </item>
     
     <item>

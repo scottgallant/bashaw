@@ -11,15 +11,15 @@
     <!-- Content -->
       <div class="content">
         {{ range .Data.Pages }}
-          <article>
+          <article class="post-list-item">
           <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          <a href="#" class="image fit"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></a>
-          {{ if isset .Params "tags" }}
-          &middot;
-          {{ $baseUrl := .Site.BaseUrl }}
-          {{ range .Params.tags }}<a class="label" href="{{ $baseUrl }}/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
-          {{ end }}</span>
-          &middot; <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          <p><time>
+          {{ if isset .Params "eventdate" }}
+            <strong>Event Date</strong> {{ .Params.eventdate }}
+          {{ end }}
+          </time></p>
+          <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></a>
+          <p>{{ if ne .Description "" }}{{ .Description }}{{ end }}</p>
           </article>
         {{ end }}
       </div>

@@ -14,7 +14,9 @@
       <pubDate>Sat, 17 Oct 2015 20:37:51 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
       <guid>http://localhost:1313/event/food-bank/</guid>
-      <description></description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/p&gt;
+&lt;p&gt;&lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/blockquote&gt;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,7 +30,7 @@
     </item>
     
     <item>
-      <title>nov 1</title>
+      <title>Some Inspirational Title</title>
       <link>http://localhost:1313/blog/nov-1/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
@@ -38,12 +40,18 @@
     </item>
     
     <item>
-      <title>nov 1</title>
+      <title>nov 8 - Some title</title>
       <link>http://localhost:1313/blog/nov-8/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
       <guid>http://localhost:1313/blog/nov-8/</guid>
-      <description></description>
+      <description>&lt;span class=&#34;image fit&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/pic07.jpg&#34; alt=&#34;&#34;&gt;
+&lt;/span&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/p&gt;
+&lt;p&gt;&lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/blockquote&gt;&lt;/p&gt;
+&lt;h2&gt;Lorem ipsum dolor&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias explicabo suscipit quia officiis quibusdam, sint minus animi optio fuga natus omnis inventore aliquam accusantium, earum dolorum saepe itaque? Possimus!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -132,10 +140,7 @@
       <pubDate>Tue, 13 Oct 2015 23:12:18 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
       <guid>http://localhost:1313/donate/</guid>
-      <description>&lt;h1&gt;Donate Now!&lt;/h1&gt;
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
+      <description>&lt;p&gt;We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.&lt;/p&gt;
 </description>
     </item>
     
@@ -146,7 +151,7 @@
       <author>Enthusiastic Hugo User</author>
       <guid>http://localhost:1313/gallery/</guid>
       <description>&lt;span class=&#34;image fit&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/pic07.jpg&#34; alt=&#34;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/images/slide02.jpg&#34; alt=&#34;&#34;&gt;
 &lt;/span&gt;
 &lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men.&lt;/p&gt;
 &lt;hr&gt;

@@ -1,11 +1,11 @@
 <!-- Sidebar -->
 <div class="sidebar">
   <section>
-    <h3>Make a Donation</h3>
-    <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
+    <h3>{{.Site.Data.sidebar.main.title}}</h3>
+    <p>{{.Site.Data.sidebar.main.description | markdownify}}</p>
     <footer>
       <ul class="actions">
-        <li><a href="/donate" class="button">Learn More</a></li>
+        <li><a href="/donate" class="button">{{.Site.Data.sidebar.main.button}}</a></li>
       </ul>
     </footer>
   </section>

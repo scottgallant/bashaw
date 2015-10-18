@@ -16,6 +16,9 @@
     
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link href="/favicon.png" rel="icon">
+
+    
+    <script src="http://localhost:1313//js/jquery.min.js"></script>
   </head>
   <body>
 
@@ -42,28 +45,60 @@
 </header>
 
 
-<section id="one" class="wrapper major-pad">
+<span class="image fit" style="margin-bottom: 0;">
+  <img src="/images/pic07.jpg" alt="">
+</span>
+<section id="one" class="wrapper split">
   <div class="inner">
-    <section class="spotlight">
+    <section class="">
       <div class="content">
         <h2>Donate</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id interdum magna, ultricies aliquet curabitur sed metus pellentesque, ornare sapien quis.</p>
-
-        <form action="" method="POST">
-          <script
-            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-            data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-            data-amount="2000"
-            data-name="Bashaw United Church"
-            data-description="Donation"
-            data-image="http://localhost:1313/images/stripe-128x128.png"
-            data-locale="auto"
-            currency="CAD">
-          </script>
-        </form>
+        <p>We want to explore. We’re curious people. Look back over history, people have put their lives at stake to go out and explore … We believe in what we’re doing. Now it’s time to go.</p>
 
       </div>
-      <span class="image"><img src="http://localhost:1313/images/pic07.jpg" alt="" /></span>
+      
+    </section>
+    <section>
+      <script src="https://checkout.stripe.com/checkout.js"></script>
+
+        <label for="amount">Amount</label>
+        <input type="text" class="amount" value="" placeholder="$0.00" name="amount">
+        <button id="donateButton" class="donate-button">Donate</button>
+
+        <script>
+          var handler = StripeCheckout.configure({
+            key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+            image: '',
+            locale: 'auto',
+            token: function(token) {
+              
+              
+            }
+          });
+
+          $('#donateButton').on('click', function(e) {
+            var regex  = /^\$?(([1-9][0-9]{0,2}(,[0-9]{3})*)|[0-9]+)?(\.[0-9]{1,2})?$/;
+            var donationAmount = $('input.amount').val();
+            donationAmount = parseInt(donationAmount.replace(/,/g, ''), 10)
+
+            if (regex.test(donationAmount)) {
+                
+                handler.open({
+                  name: 'Bashaw United Church',
+                  description: 'Donation',
+                  amount: donationAmount * 100
+                });
+            } else {
+                alert("Please put in a donation amount in dollars");
+            }
+            e.preventDefault();
+          });
+
+          
+          $(window).on('popstate', function() {
+            handler.close();
+          });
+        </script>
     </section>
   </div>
 </section>
@@ -74,16 +109,12 @@
         <div class="inner">
           <p class="copyright">Copyright &copy; 2015 <br />
           <ul class="menu">
-            <li><a href="#">Terms<span> of Use</span></a></li>
-            <li><a href="#">Privacy<span> Policy</span></a></li>
-            <li><a href="#">Legal<span> Information</span></a></li>
+            <li><a href="http://localhost:1313/">Bashaw United Church</a></li>
           </ul>
         </div>
       </footer>
 
     
-    
-      <script src="http://localhost:1313//js/jquery.min.js"></script>
       <script src="http://localhost:1313//js/jquery.dropotron.min.js"></script>
       <script src="http://localhost:1313//js/jquery.scrollex.min.js"></script>
       <script src="http://localhost:1313//js/skel.min.js"></script>
