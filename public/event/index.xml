@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Events on Bashaw United Church </title>
-    <link>http://localhost:1313/event/</link>
+    <link>http://peigranary.com/bashaw/event/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>food bank</title>
-      <link>http://localhost:1313/event/food-bank/</link>
+      <link>http://peigranary.com/bashaw/event/food-bank/</link>
       <pubDate>Sat, 17 Oct 2015 20:37:51 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/event/food-bank/</guid>
+      <guid>http://peigranary.com/bashaw/event/food-bank/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/p&gt;
 &lt;p&gt;&lt;blockquote&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/blockquote&gt;&lt;/p&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus distinctio pariatur nisi excepturi totam quidem necessitatibus, quaerat praesentium, dolores saepe iure ea, nemo incidunt. Ipsa quaerat in optio animi cupiditate.&lt;/p&gt;</description>
@@ -21,20 +21,20 @@
     
     <item>
       <title>choir performance</title>
-      <link>http://localhost:1313/event/choir-performance/</link>
+      <link>http://peigranary.com/bashaw/event/choir-performance/</link>
       <pubDate>Sat, 17 Oct 2015 20:37:18 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/event/choir-performance/</guid>
-      <description>&lt;p&gt;&lt;span class=&#34;image left&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/pic08.jpg&#34; alt=&#34;&#34; /&gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam?&lt;/p&gt;
+      <guid>http://peigranary.com/bashaw/event/choir-performance/</guid>
+      <description>&lt;p&gt;&lt;span class=&#34;image left&#34;&gt;&lt;img src=&#34;http://peigranary.com/bashaw/bashaw/images/pic08.jpg&#34; alt=&#34;&#34; /&gt;&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam?&lt;/p&gt;
 &lt;p&gt;Perferendis molestiae neque sint hic veritatis incidunt officia maiores natus, eligendi vero sapiente, perspiciatis inventore repudiandae, unde aliquam nostrum architecto rem, totam?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>haunted house</title>
-      <link>http://localhost:1313/event/haunted-house/</link>
+      <link>http://peigranary.com/bashaw/event/haunted-house/</link>
       <pubDate>Wed, 14 Oct 2015 00:23:27 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/event/haunted-house/</guid>
+      <guid>http://peigranary.com/bashaw/event/haunted-house/</guid>
       <description>&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
 &lt;p&gt;The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.&lt;/p&gt;
 &lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;

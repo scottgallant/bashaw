@@ -41,7 +41,7 @@
                   {{ if eq "sermon" $key }}
                     {{ range first 3 $value.Pages }}
                       <section class="post">
-                        <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                        <span class="image"><img src="{{ .Site.BaseUrl }}images/pic01.jpg" alt="" /></span>
                         <div class="content">
                           <h3>{{ .Title }}</h3>
                           <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
@@ -67,7 +67,7 @@
 
             {{ range first 3 (where .Site.Pages "Section" "event") }}
                 <section class="post">
-                  <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                  <span class="image"><img src="{{ .Site.BaseUrl }}images/pic01.jpg" alt="" /></span>
                   <div class="content">
                     <h3>{{ .Title }}</h3>
                     <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>

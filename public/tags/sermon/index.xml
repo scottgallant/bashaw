@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Sermon on Bashaw United Church </title>
-    <link>http://localhost:1313/tags/sermon/</link>
+    <link>http://peigranary.com/bashaw/tags/sermon/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,39 +10,39 @@
     
     <item>
       <title>Some Inspirational Title</title>
-      <link>http://localhost:1313/blog/nov-1/</link>
+      <link>http://peigranary.com/bashaw/blog/nov-1/</link>
       <pubDate>Sat, 17 Oct 2015 17:32:41 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/nov-1/</guid>
+      <guid>http://peigranary.com/bashaw/blog/nov-1/</guid>
       <description>&lt;h2&gt;Somthing&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus distinctio rem aperiam tenetur vel ullam sequi architecto impedit modi laboriosam laborum, nihil facilis blanditiis praesentium ut maiores in porro atque!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>oct 15</title>
-      <link>http://localhost:1313/blog/oct-15/</link>
+      <link>http://peigranary.com/bashaw/blog/oct-15/</link>
       <pubDate>Wed, 14 Oct 2015 16:38:46 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/oct-15/</guid>
+      <guid>http://peigranary.com/bashaw/blog/oct-15/</guid>
       <description>asdf</description>
     </item>
     
     <item>
       <title>oct 8</title>
-      <link>http://localhost:1313/blog/oct-8/</link>
+      <link>http://peigranary.com/bashaw/blog/oct-8/</link>
       <pubDate>Wed, 14 Oct 2015 16:21:23 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/oct-8/</guid>
+      <guid>http://peigranary.com/bashaw/blog/oct-8/</guid>
       <description>&lt;h2&gt;Aiming for the stars&lt;/h2&gt;
 &lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>oct 1</title>
-      <link>http://localhost:1313/blog/oct-1/</link>
+      <link>http://peigranary.com/bashaw/blog/oct-1/</link>
       <pubDate>Wed, 14 Oct 2015 15:15:20 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://localhost:1313/blog/oct-1/</guid>
+      <guid>http://peigranary.com/bashaw/blog/oct-1/</guid>
       <description>asdf</description>
     </item>
     
