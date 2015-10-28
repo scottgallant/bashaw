@@ -82,3 +82,12 @@ input.amount {
 .narrow-page {
 	max-width: 60em !important;
 }
+
+#banner .inner p {
+	font-size: 25px;
+}
+
+
+.post a {
+	border-bottom: none;
+}

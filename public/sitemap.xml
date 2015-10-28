@@ -2,73 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://peigranary.com/bashaw/</loc>
-    <lastmod>2015-10-17T20:37:51-03:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2015-10-28T16:21:23-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/event/food-bank/</loc>
-    <lastmod>2015-10-17T20:37:51-03:00</lastmod>
+    <loc>http://localhost:1313/blog/bartimaeus/</loc>
+    <lastmod>2015-10-28T16:21:23-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/event/choir-performance/</loc>
+    <loc>http://localhost:1313/event/movie-night/</loc>
+    <lastmod>2015-10-28T00:23:27-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/event/angels-among-us/</loc>
     <lastmod>2015-10-17T20:37:18-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/blog/nov-8/</loc>
-    <lastmod>2015-10-17T17:32:41-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://peigranary.com/bashaw/blog/nov-1/</loc>
-    <lastmod>2015-10-17T17:32:41-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://peigranary.com/bashaw/blog/oct-15/</loc>
-    <lastmod>2015-10-14T16:38:46-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://peigranary.com/bashaw/blog/oct-8/</loc>
+    <loc>http://localhost:1313/blog/oct-4/</loc>
     <lastmod>2015-10-14T16:21:23-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/blog/oct-1/</loc>
-    <lastmod>2015-10-14T15:15:20-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://peigranary.com/bashaw/event/haunted-house/</loc>
+    <loc>http://localhost:1313/event/childrens-sunday/</loc>
     <lastmod>2015-10-14T00:23:27-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/angels-among-us/</loc>
+    <loc>http://localhost:1313/angels-among-us/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/blog/welcome/</loc>
+    <loc>http://localhost:1313/donate/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://peigranary.com/bashaw/donate/</loc>
-    <lastmod>2015-10-13T23:12:18-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://peigranary.com/bashaw/gallery/</loc>
+    <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2015-10-13T23:12:18-03:00</lastmod>
   </url>
   

@@ -9,21 +9,10 @@
 <!-- Banner -->
       <section id="banner">
         <article>
-          <img src="{{ .Site.BaseUrl }}/images/slide01.jpg" alt="" />
+          <img src="{{ .Site.BaseUrl }}/images/church01.jpg" alt="" />
           <div class="inner">
-            <h2><a href="#">Magna tempus. Sed feugiat.</a></h2>
-          </div>
-        </article>
-        <article>
-          <img src="{{ .Site.BaseUrl }}/images/slide02.jpg" alt="" />
-          <div class="inner">
-            <h2><a href="#">Aliquam veroeros nullam.</a></h2>
-          </div>
-        </article>
-        <article>
-          <img src="{{ .Site.BaseUrl }}/images/slide03.jpg"  alt="" />
-          <div class="inner">
-            <h2><a href="#">Consequat dolore adipiscing.</a></h2>
+            <h2><a href="#">Bashaw United Church</a></h2>
+            <p>Living God’s Love. Sharing God’s Love.</p>
           </div>
         </article>
       </section>
@@ -41,10 +30,10 @@
                   {{ if eq "sermon" $key }}
                     {{ range first 3 $value.Pages }}
                       <section class="post">
-                        <span class="image"><img src="{{ .Site.BaseUrl }}images/pic01.jpg" alt="" /></span>
+                        <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseUrl }}images/sermon-oct-4.jpg" alt="" /></span></a>
                         <div class="content">
                           <h3>{{ .Title }}</h3>
-                          <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
+                          <p>{{ .Description }}</p>
                           <ul class="actions">
                             <li><a href="{{ .Permalink }}" class="button">More</a></li>
                           </ul>
@@ -67,10 +56,10 @@
 
             {{ range first 3 (where .Site.Pages "Section" "event") }}
                 <section class="post">
-                  <span class="image"><img src="{{ .Site.BaseUrl }}images/pic01.jpg" alt="" /></span>
+                  <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseUrl }}images/{{ if isset .Params "small_image"}}{{.Params.small_image}}{{else}}pic01.jpg{{end}}" alt="" /></span></a>
                   <div class="content">
                     <h3>{{ .Title }}</h3>
-                    <p>Aenean ultricies magna non sapien rhoncus, ac ullamcorper lorem convallis. Quisque at venenatis nisi, amet finibus mauris. Sed sodales ultricies eros, sit amet sodales sapien.</p>
+                    <p>{{ .Description }}</p>
                     <ul class="actions">
                       <li><a href="{{ .Permalink }}" class="button">More</a></li>
                     </ul>
