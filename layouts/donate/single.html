@@ -1,9 +1,15 @@
 {{ partial "head.html" . }}
 {{ partial "top-subpage.html" . }}
 
-<span class="image fit" style="margin-bottom: 0;">
-  <img src="{{ .Site.BaseUrl }}images/bashaw-church-donate.jpg" alt="">
-</span>
+<section id="banner" style="min-height: 25em; height: 50vh">
+  <article>
+    <img src="{{ .Site.BaseUrl }}/images/church01.jpg" alt="">
+    <div class="inner">
+      <h2>Our Vision</h2>
+    <p>Living God’s Love, Sharing God’s Love</p>
+    </div>
+  </article>
+</section>
 <section id="one" class="wrapper split">
   <div class="inner">
     <section class="">
@@ -11,27 +17,26 @@
         <h2>{{ .Title }}</h2>
         {{ .Content }}
       </div>
-      <!-- <span class="image"><img src="{{ .Site.BaseUrl }}images/pic07.jpg" alt="" /></span> -->
     </section>
     <section>
       <script src="https://checkout.stripe.com/checkout.js"></script>
-
+        <!-- <form id="stripe-form" method="post">
+        <div class="payment-errors"></div>
         <label for="amount">Amount</label>
         <input type="text" class="amount" value="" placeholder="$0.00" name="amount">
-        <button id="donateButton" class="donate-button">Donate</button>
-
+        <input type="submit" id="donateButton" class="donate-button" value="Donate">
+        </form> -->
         <script>
           var handler = StripeCheckout.configure({
-            key: 'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+            key: 'pk_test_cx54cOTIceCDLB7wCesowgql',
             image: '',
             locale: 'auto',
             token: function(token) {
-              // Use the token to create the charge with a server-side script.
-              // You can access the token ID with `token.id`
+              console.log(token);
             }
           });
 
-          $('#donateButton').on('click', function(e) {
+          $('#stripe-form').on('submit', function(e) {
             var regex  = /^\$?(([1-9][0-9]{0,2}(,[0-9]{3})*)|[0-9]+)?(\.[0-9]{1,2})?$/;
             var donationAmount = $('input.amount').val();
             donationAmount = parseInt(donationAmount.replace(/,/g, ''), 10)
@@ -41,6 +46,7 @@
                 handler.open({
                   name: 'Bashaw United Church',
                   description: 'Donation',
+                  currency: 'cad',
                   amount: donationAmount * 100
                 });
             } else {

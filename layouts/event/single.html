@@ -5,6 +5,9 @@
 
     <!-- Content -->
       <div class="content">
+        {{ if isset .Params "thumbnail" }}
+          <span class="image fit"><img src="{{ .Site.BaseUrl }}/images/{{ .Params.thumbnail }}" alt="Bashaw United Church Event - {{ .Title }}"></span>
+        {{ end }}
         <h1>{{ .Title }}</h1>
         {{ if isset .Params "eventdate" }}
           <p><strong>Event Date</strong> {{ .Params.eventdate }}

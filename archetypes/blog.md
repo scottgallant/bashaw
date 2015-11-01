@@ -5,4 +5,5 @@ keywords = []
 tags = []
 video = ""
 eventdate = ""
+thumbnail = ""
 +++
