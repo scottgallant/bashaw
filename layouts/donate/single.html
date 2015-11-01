@@ -20,12 +20,12 @@
     </section>
     <section>
       <script src="https://checkout.stripe.com/checkout.js"></script>
-        <!-- <form id="stripe-form" method="post">
+        <form id="stripe-form" method="post">
         <div class="payment-errors"></div>
         <label for="amount">Amount</label>
         <input type="text" class="amount" value="" placeholder="$0.00" name="amount">
         <input type="submit" id="donateButton" class="donate-button" value="Donate">
-        </form> -->
+        </form>
         <script>
           var handler = StripeCheckout.configure({
             key: 'pk_test_cx54cOTIceCDLB7wCesowgql',
@@ -33,6 +33,7 @@
             locale: 'auto',
             token: function(token) {
               console.log(token);
+              $.showSpinner();
             }
           });
 

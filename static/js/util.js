@@ -583,6 +583,11 @@
 			});
 
 	};
+
+	$.showSpinner = function() {
+		$('.spinner').show()
+	};
+
 	$(document).ready(function(){
     // Target your .container, .wrapper, .post, etc.
     $(".video-wrap").fitVids();

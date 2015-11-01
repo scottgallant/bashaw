@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
       <title>Blogs on Bashaw United Church </title>
-    <link>http://bashawunitedchurch.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <language>en-US</language>
     <author>Enthusiastic Hugo User</author>
     <rights>Copyright (c) 2014, Enthusiastic Hugo User; all rights reserved.</rights>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Fear isn’t life-giving, love is</title>
-      <link>http://bashawunitedchurch.com/blog/Fear-isnt-life-giving-love-is/</link>
+      <link>http://localhost:1313/blog/Fear-isnt-life-giving-love-is/</link>
       <pubDate>Thu, 29 Oct 2015 23:01:30 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://bashawunitedchurch.com/blog/Fear-isnt-life-giving-love-is/</guid>
+      <guid>http://localhost:1313/blog/Fear-isnt-life-giving-love-is/</guid>
       <description>&lt;p&gt;When did we get to be so afraid?&lt;/p&gt;
 
 &lt;p&gt;Anxiety, worry, a lack of confidence in ourselves or the world around us, many - and real - are our fears.  It doesn&#39;t help that we&#39;re still in the longest election campaign since 1872.  If it&#39;s not the outrageous promises, it&#39;s all the things that you should be afraid of and what will happen if - insert person or party here - gets elected.  And it&#39;ll be another year of that for our friends to the south.&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;I don&#39;t think that Jesus is saying that having wealth, money or things is inherently bad.  But when we let those material things rule our lives, we value all things in that context and our lives become an endless quest to meet a need for more stuff that we can never achieve.  We begin to see life in the context of what we don&#39;t have, rather than what we do, what we want, rather than need, and what we fear losing, rather than what we&#39;re willing to share.  The fear of scarcity overwhelms the joy of abundance and we seek to acquire more and protect what we have.&lt;/p&gt;
 
 
-&lt;img src=&#34;http://bashawunitedchurch.com/images/dalai-lama.png&#34; alt=&#34;The more you are motivated by love, the more fearless and free your actions will be. - Dalai Lama&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/dalai-lama.png&#34; alt=&#34;The more you are motivated by love, the more fearless and free your actions will be. - Dalai Lama&#34; /&gt;
 
 
 
@@ -44,10 +44,10 @@
     
     <item>
       <title>Are You Able?</title>
-      <link>http://bashawunitedchurch.com/blog/Are-You-Able/</link>
+      <link>http://localhost:1313/blog/Are-You-Able/</link>
       <pubDate>Thu, 29 Oct 2015 21:46:44 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://bashawunitedchurch.com/blog/Are-You-Able/</guid>
+      <guid>http://localhost:1313/blog/Are-You-Able/</guid>
       <description>&lt;p&gt;Sometimes I feel sorry for the disciples, at least in their early apprentice years with Jesus.  They get pretty solid, post resurrection, but early on they seem to be pretty dense.  They play the ordinary, everyday guy-off-the-street (or boat) really well, but sometimes, when they repeatedly just don&#39;t seem to get it, I wonder if Jesus might not have assembled a better crew.&lt;/p&gt;
 
 &lt;p&gt;But then I remind myself that Jesus picked them for a reason.  They&#39;re just like me.  Or you.&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Sunday Sermon Oct 18, 2015</title>
-      <link>http://bashawunitedchurch.com/blog/sermon-18/</link>
+      <link>http://localhost:1313/blog/sermon-18/</link>
       <pubDate>Thu, 29 Oct 2015 21:01:55 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://bashawunitedchurch.com/blog/sermon-18/</guid>
+      <guid>http://localhost:1313/blog/sermon-18/</guid>
       <description>&lt;h2&gt;Scripture Readings:&lt;/h2&gt;
 &lt;p&gt;Job 38:1–7, (34–41) God’s rebuttal to Job’s complaint.&lt;/p&gt;
 &lt;p&gt;Psalm 104:1–9, 24, 35c With wisdom, God created the earth and all its creatures.&lt;/p&gt;
@@ -82,10 +82,10 @@
     
     <item>
       <title>I once was blind but now I see</title>
-      <link>http://bashawunitedchurch.com/blog/bartimaeus/</link>
+      <link>http://localhost:1313/blog/bartimaeus/</link>
       <pubDate>Wed, 28 Oct 2015 16:21:23 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://bashawunitedchurch.com/blog/bartimaeus/</guid>
+      <guid>http://localhost:1313/blog/bartimaeus/</guid>
       <description>&lt;h2&gt;Bartimaeus gets a name.&lt;/h2&gt;
 
 &lt;p&gt;Even if you&#39;re familiar with the story of Jesus healing a blind beggar who&#39;s name is Bartimaeus (Mark 10:46-52), that might not seem like a big deal, but I think it is.  Many bible scholars have researched it and there&#39;s some fascinating theories about his name and what it means.  They&#39;re very interesting, but I just think it&#39;s important he got a name.  Any name.&lt;/p&gt;
@@ -115,10 +115,10 @@
     
     <item>
       <title>Sunday Sermon Oct 4, 2015</title>
-      <link>http://bashawunitedchurch.com/blog/oct-4/</link>
+      <link>http://localhost:1313/blog/oct-4/</link>
       <pubDate>Wed, 14 Oct 2015 16:21:23 ADT</pubDate>
       <author>Enthusiastic Hugo User</author>
-      <guid>http://bashawunitedchurch.com/blog/oct-4/</guid>
+      <guid>http://localhost:1313/blog/oct-4/</guid>
       <description>&lt;h2&gt;World Communion Sunday&lt;/h2&gt;
 &lt;p&gt;Scripture Readings:&lt;/p&gt;
 &lt;p&gt;Job 1:1; 2:1–10 Job’s first affliction; faith intact.&lt;/p&gt;
