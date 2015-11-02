@@ -27,19 +27,35 @@
         <input type="submit" id="donateButton" class="donate-button" value="Donate">
         </form>
         <script>
+          var donationAmount = 0;
           var handler = StripeCheckout.configure({
             key: 'pk_test_cx54cOTIceCDLB7wCesowgql',
             image: '',
             locale: 'auto',
             token: function(token) {
-              console.log(token);
               $.showSpinner();
+              $.ajax({
+                url: "https://414h0iubt1.execute-api.us-west-2.amazonaws.com/prod/donationCapture",
+                data: JSON.stringify({
+                  token: token.id,
+                  amount: donationAmount * 100
+                }),
+                dataType: "json",
+                type: "post",
+                headers: {
+                  "x-api-key": "BMZCI3IVE8oZvo7IpvTL6h8LGir6G78duanZz520"
+                }
+              }).done(function (response) {
+                window.location = "/charge";
+              }).error(function () {
+                console.log("there was an error");
+              });
             }
           });
 
           $('#stripe-form').on('submit', function(e) {
             var regex  = /^\$?(([1-9][0-9]{0,2}(,[0-9]{3})*)|[0-9]+)?(\.[0-9]{1,2})?$/;
-            var donationAmount = $('input.amount').val();
+            donationAmount = $('input.amount').val();
             donationAmount = parseInt(donationAmount.replace(/,/g, ''), 10)
 
             if (regex.test(donationAmount)) {
