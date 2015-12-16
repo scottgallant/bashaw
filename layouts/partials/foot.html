@@ -8,7 +8,8 @@
 <!-- Footer -->
       <footer id="footer">
         <div class="inner">
-          <p class="copyright">Copyright &copy; {{ .Now.Format "2006" }} <br />
+          <p class="copyright">{{.Site.Data.footer.site_footer.copyright}}</p>
+          <p class="copyright">{{.Site.Data.footer.site_footer.description}}</p>
           <ul class="menu">
             <li><a href="{{ .Site.BaseUrl}}">Bashaw United Church</a></li>
           </ul>
@@ -22,13 +23,13 @@
       </div>
 
     <!-- Scripts -->
-      <script src="{{ .Site.BaseUrl }}/js/jquery.dropotron.min.js"></script>
-      <script src="{{ .Site.BaseUrl }}/js/jquery.scrollex.min.js"></script>
-      <script src="{{ .Site.BaseUrl }}/js/skel.min.js"></script>
-      <script src="{{ .Site.BaseUrl }}/js/jquery.fitvids.js"></script>
-      <script src="{{ .Site.BaseUrl }}/js/util.js"></script>
-      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-      <script src="{{ .Site.BaseUrl }}/js/main.js"></script>
+      <script src="/js/jquery.dropotron.min.js"></script>
+      <script src="/js/jquery.scrollex.min.js"></script>
+      <script src="/js/skel.min.js"></script>
+      <script src="/js/jquery.fitvids.js"></script>
+      <script src="/js/util.js"></script>
+      <!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+      <script src="/js/main.js"></script>
     {{ with .Site.Params.googleAnalytics }}
       <script>
         var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
