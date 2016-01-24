@@ -9,7 +9,7 @@ title = "test"
 
 #Heading
 
-Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus.
+Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. YAY
 ## heading again.
 
 quat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend.
