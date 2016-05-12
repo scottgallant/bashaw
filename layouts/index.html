@@ -26,7 +26,7 @@
 
             {{ range first 3 (where .Site.Pages "Section" "sermon") }}
                       <section class="post">
-                        <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseURL }}/images/{{ if isset .Params "thumbnail"}}{{.Params.thumbnail}}{{else}}pic01.jpg{{end}}" alt="" /></span></a>
+                        <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseURL }}{{ if isset .Params "thumbnail"}}{{.Params.thumbnail}}{{else}}pic01.jpg{{end}}" alt="" /></span></a>
                         <div class="content">
                           <h3>{{ .Title }}</h3>
                           <p>{{ .Description }}</p>
@@ -48,7 +48,7 @@
 
             {{ range first 3 (where .Site.Pages "Section" "event") }}
                 <section class="post">
-                  <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseURL }}/images/{{ if isset .Params "thumbnail"}}{{.Params.thumbnail}}{{else}}pic01.jpg{{end}}" alt="" /></span></a>
+                  <a href="{{ .Permalink }}"><span class="image"><img src="{{ .Site.BaseURL }}{{ if isset .Params "thumbnail"}}{{.Params.thumbnail}}{{else}}pic01.jpg{{end}}" alt="" /></span></a>
                   <div class="content">
                     <h3>{{ .Title }}</h3>
                     <p>{{ .Description }}</p>
