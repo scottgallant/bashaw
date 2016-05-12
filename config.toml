@@ -1,7 +1,10 @@
 baseurl = "https://bashawunitedchurch.com"
 contact = "/:filename/"
 languagecode = "en-us"
+pluralizelisttitles = false
 title = "Bashaw United Church"
+[indexes]
+tag = "tags"
 [[menu.main]]
 name = "Sermons"
 url = "/sermon"
