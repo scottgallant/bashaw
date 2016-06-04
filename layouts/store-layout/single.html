@@ -15,7 +15,7 @@
   <div class="features">
     {{ range .Params.items }}
     <section class="content">
-      <img src="{{ .img }}" alt="" style="width: 100%; margin-bottom: 20px;" />
+      <img src="{{ .thumbnail }}" alt="" style="width: 100%; margin-bottom: 20px;" />
       <h3>{{ .title }}</h3>
       <p>
         {{ .description }}
@@ -29,6 +29,14 @@
     {{end}}
   </div>
 </div>
+</section>
+<section id="main" class="wrapper content-pad">
+  <div class="inner">
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
 </section>
 <script>
   var handler = StripeCheckout.configure({
