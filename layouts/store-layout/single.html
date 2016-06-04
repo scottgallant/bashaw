@@ -13,37 +13,20 @@
 <section id="two" class="wrapper content-pad">
 <div class="inner">
   <div class="features">
+    {{ range .Params.items }}
     <section class="content">
-      <img src="/assets/images/cabin.png" alt="" style="width: 100%; margin-bottom: 20px;" />
+      <img src="{{ .img }}" alt="" style="width: 100%; margin-bottom: 20px;" />
+      <h3>{{ .title }}</h3>
       <p>
-        Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        {{ .description }}
       </p>
       <script src="https://checkout.stripe.com/checkout.js"></script>
         <form id="item1" method="post">
         <div class="payment-errors"></div>
-        <input type="submit" id="donateButton" class="donate-button" value="Purchase - $25.00">
+        <input type="submit" id="donateButton" class="donate-button" value="Purchase - ${{ .price }}.00">
         </form>
     </section>
-    <section class="content">
-      <img src="/assets/images/cabin.png" alt="" style="width: 100%; margin-bottom: 20px;" />
-      <p>
-        Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-      </p>
-      <form id="item2" method="post">
-      <div class="payment-errors"></div>
-      <input type="submit" id="donateButton" class="donate-button" value="Purchase - $25.00">
-      </form>
-    </section>
-    <section class="content">
-      <img src="/assets/images/cabin.png" alt="" style="width: 100%; margin-bottom: 20px;" />
-      <p>
-        Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-      </p>
-      <form id="item3" method="post">
-      <div class="payment-errors"></div>
-      <input type="submit" id="donateButton" class="donate-button" value="Purchase - $25.00">
-      </form>
-    </section>
+    {{end}}
   </div>
 </div>
 </section>
@@ -73,16 +56,7 @@
     }
   });
 
-  $('#item1').on('submit', function(e) {
-    // Open Checkout with further options
-    handler.open({
-      name: 'Item 1',
-      description: 'Something',
-      currency: 'cad',
-      amount: 2500
-    });
-    e.preventDefault();
-  });
+
   $('#item2').on('submit', function(e) {
     // Open Checkout with further options
     handler.open({
