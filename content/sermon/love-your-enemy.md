@@ -4,7 +4,7 @@ description = ""
 draft = true
 eventdate = ""
 tags = ""
-thumbnail = ""
+thumbnail = "/forestryio/images/robin.PNG"
 title = "February 19th, 2017 - Love Your Enemy?"
 video = "https://youtu.be/c_O47fQINUA"
 
