@@ -1,5 +1,5 @@
 +++
-date = "2017-02-24T15:52:57+00:00"
+date = "2017-02-24T15:52:57Z"
 description = ""
 draft = true
 eventdate = ""
