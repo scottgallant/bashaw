@@ -2,7 +2,6 @@
 categories = ""
 date = "2017-02-24T16:00:11Z"
 description = "Check out more information on how you can support the Bashaw United Church through FundScrip!"
-draft = true
 keywords = ""
 thumbnail = "/forestryio/images/Logo_En.jpg"
 title = "FundScrip"
@@ -21,6 +20,6 @@ Step 3: Generate earnings for the church! With each gift card you purchase, the 
 
 HOW DO I GET INVOLVED?
 
-Every last Sunday of the month is a FundScrip Sunday (that just means order forms are due). You can stop by the church during office hours to pick up an order form, or visit the link below for an excel version of the order form. You can download the excel doc, fill it out with your order, and hand it in via e-mail. Just make sure to drop your cheque off at the church before FundScrip Sunday! Then we will place your order for you, and your gift cards should arrive by the following Sunday. It's that easy! AND you get to support the work of the Bashaw United Church in the process. Win/win. If you have any questions about FundScrip or the process of ordering, stop by the church during office hours, give us a call, or send us an email!
+Every 1st Sunday of the month is a FundScrip Sunday (that just means order forms are due). You can stop by the church during office hours to pick up an order form, or visit the link below for an excel version of the order form. You can download the excel doc, fill it out with your order, and hand it in via e-mail. Just make sure to drop your cheque off at the church before FundScrip Sunday! Then we will place your order for you, and your gift cards should arrive by the following Sunday. It's that easy! AND you get to support the work of the Bashaw United Church in the process. Win/win. If you have any questions about FundScrip or the process of ordering, stop by the church during office hours, give us a call, or send us an email!
 
 Excel order form: https://docs.google.com/spreadsheets/d/1q6g4xEWTTHDrIiGWiUXy5o1Qe1aIxAoR_Ia-SNngqUI/edit?usp=sharing
