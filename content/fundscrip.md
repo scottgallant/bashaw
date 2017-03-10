@@ -6,6 +6,8 @@ keywords = ""
 thumbnail = "/forestryio/images/Logo_En.jpg"
 title = "FundScrip"
 type = "blog"
+[menu.main]
+weight = 1
 
 +++
 Did you know the Bashaw United Church places monthly orders through FundScrip to help raise money for our church? Consider taking part! It is a very simple process that can aid in your personal budgeting while also helping your church to raise money!  
