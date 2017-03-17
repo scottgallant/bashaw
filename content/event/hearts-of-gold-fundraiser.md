@@ -1,7 +1,6 @@
 +++
 date = "2017-03-17T13:29:30+00:00"
 description = "Join us as three lovely ladies present a night of sloppy joes and movies in support of Childhood Cancer Awareness."
-draft = true
 eventdate = "April 7, 2017"
 tags = ""
 thumbnail = "/forestryio/images/hearts.jpg"
