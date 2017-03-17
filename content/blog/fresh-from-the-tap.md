@@ -1,6 +1,6 @@
 +++
 date = "2017-03-17T13:27:01+00:00"
-description = "http://revrobsgodblog.blogspot.ca/2017/03/fresh-from-tap.html"
+description = "Hydration is key to a healthy body, a healthy mind - and a healthy spirit! Read all about it in this week's blog."
 tags = ""
 thumbnail = "/forestryio/images/unnamed.jpg"
 title = "Fresh from the tap"
@@ -27,3 +27,5 @@ There’s a story in John’s gospel about Jesus meeting a Samaritan woman at a 
 Jesus is thirsty from walking all morning and he comes to the well. He doesn’t have a pail and it’s noon (hottest part of the day) so there’s no one around. He needs help to get the water that will refresh and sustain him. Here’s the Samaritan woman. She probably comes to the well everyday at that time to get water. Jesus asks her for some, they have a conversation and Jesus tells her about “the living water” he brings. She asks him to give her this living water, their conversation continues and Jesus reveals to her that he is the promised one. “I am,” says Jesus. And there it is. The well - the tap - from which the living water flows.
 
 I think the living water Jesus brings is God’s love and the well from which we draw it is the encounter, the relationship that we have with Jesus. In that relationship, that dialogue, that “back and forth” with Jesus, we find love revealed and we are refreshed and inspired to live that love with others. Perhaps it’s only in our thirstiest moments that we seek it out, but the well is always available for us to return, again and again, to be filled.
+
+Taken from http://revrobsgodblog.blogspot.ca/2017/03/fresh-from-tap.html
