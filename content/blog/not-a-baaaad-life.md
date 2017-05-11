@@ -2,7 +2,7 @@
 date = "2017-05-11T13:34:38+00:00"
 description = ""
 tags = []
-thumbnail = ""
+thumbnail = "/forestryio/images/May 7 graphic.jpg"
 title = "Not a baaaad life"
 
 +++
