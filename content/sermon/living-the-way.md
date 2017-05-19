@@ -1,7 +1,6 @@
 +++
 date = "2017-05-19T11:47:06+00:00"
 description = "John 14:6 Jesus answered, “I am the way and the truth and the life. No one comes to the Father except through me."
-draft = true
 eventdate = "Sunday, May 14, 2017"
 tags = []
 thumbnail = "/forestryio/images/Capture-3.PNG"
